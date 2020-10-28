@@ -1,14 +1,28 @@
-//======================================================================================
-// Map Index
-//======================================================================================
-// Contains the list of maps with their respective IDs for inter-server use.
-// IDs must never change, therefore any new maps need to be added at the end,
-// and old ones must not be removed, but may be replaced.
-// Format:
-// mapname<tab>index <- specifies index for this map
-// mapname <- map will use index of previous map +1
-// Note that map index 0 is special and reserved for "error" status.
-
+//  ________________________________________________________
+// /                                                        \
+// |       _           _   _   _                            |
+// |      | |__  _ __ / \ | |_| |__   ___ _ __   __ _       |
+// |      | '_ \| '__/ _ \| __| '_ \ / _ \ '_ \ / _` |      |
+// |      | |_) | | / ___ \ |_| | | |  __/ | | | (_| |      |
+// |      |_.__/|_|/_/   \_\__|_| |_|\___|_| |_|\__,_|      |
+// |                                                        |
+// |                    brAthena Script                     |
+// |--------------------------------------------------------|
+// | Nome do Database: map_index.txt                        |
+// |--------------------------------------------------------|
+// | Criado por: eA/brA Dev. Team                           |
+// |--------------------------------------------------------|
+// | Descrição: Database contendo a lista de mapas do       |
+// | emulador                                               |
+// |--------------------------------------------------------|
+// | Estrutura do Banco de Dados:                           |
+// | mapname<tab>index <- specifies index for this map      |
+// | mapname <- map will use index of previous map +1       |
+// | IDs para uso do inter-server.                          |
+// | That map index 0 is special and reserved for           |
+// | "error" status.                                        |
+// \________________________________________________________/
+//
 alb_ship 1
 alb2trea
 alberta
@@ -168,16 +182,16 @@ orcsdun01
 orcsdun02
 ordeal_1-1
 ordeal_1-2
-//ordeal_1-3
-//ordeal_1-4
+ordeal_1-3
+ordeal_1-4
 ordeal_2-1
 ordeal_2-2
-//ordeal_2-3
-//ordeal_2-4
+ordeal_2-3
+ordeal_2-4
 ordeal_3-1
 ordeal_3-2
-//ordeal_3-3
-//ordeal_3-4
+ordeal_3-3
+ordeal_3-4
 pay_arche
 pay_dun00
 pay_dun01
@@ -642,9 +656,9 @@ ve_fild04
 ve_fild05
 ve_fild06
 ve_fild07
-//poring_c01	628
-//poring_c02	629
-que_ng	630
+poring_c01
+poring_c02
+que_ng
 nameless_i
 nameless_n
 nameless_in
@@ -783,14 +797,20 @@ dic_dun02
 job3_gen01
 s_atelier
 job3_sha01
-
+//
+//============================================================
+// Mapas de Eventos
+//============================================================
 //evt_zombie
 //evt_coke
 //ac_sl_area
 //ac_cl_hall
 //ac_cl_room
 //jp_s_dun11
-
+//
+//============================================================
+// Em testes
+//============================================================
 mora
 bif_fild01
 bif_fild02
@@ -820,230 +840,11 @@ dic_dun03
 1@lhz
 lhz_dun04
 que_lhz
-gld_dun01_2
-gld_dun02_2
-gld_dun03_2
-gld_dun04_2
-gld2_ald
-gld2_gef
-gld2_pay
-gld2_prt
-malaya
-ma_fild01
-ma_fild02
-ma_scene01
-ma_in01
-ma_dun01
-1@ma_h
-1@ma_c
-1@ma_b
-ma_zif01
-ma_zif02
-ma_zif03
-ma_zif04
-ma_zif05
-ma_zif06
-ma_zif07
-ma_zif08
-ma_zif09
-job_ko
-eclage
-ecl_fild01
-ecl_in01
-ecl_in02
-ecl_in03
-ecl_in04
-1@ecl
-ecl_tdun01
-ecl_tdun02
-ecl_tdun03
-ecl_tdun04
-ecl_hub01
-que_avan01
-moc_prydn1
-moc_prydn2
-iz_int
-iz_int01
-iz_int02
-iz_int03
-iz_int04
-iz_ac01
-iz_ac02
-iz_ng01
-treasure_n1
-treasure_n2
-iz_ac01_d
-iz_ac02_d
-iz_ac01_c
-iz_ac02_c
-iz_ac01_b
-iz_ac02_b
-iz_ac01_a
-iz_ac02_a
-izlude_d
-izlude_c
-izlude_b
-izlude_a
-int_land
-int_land01
-int_land02
-int_land03
-int_land04
-prt_fild08d
-prt_fild08c
-prt_fild08b
-prt_fild08a
-te_prt_gld
-te_prtcas01
-te_prtcas02
-te_prtcas03
-te_prtcas04
-te_prtcas05
-teg_dun01
-teg_dun02
-te_alde_gld
-te_aldecas1
-te_aldecas2
-te_aldecas3
-te_aldecas4
-te_aldecas5
-1@gl_k
-2@gl_k
-gl_cas02_
-gl_chyard_
-silk_lair
-evt_bomb
-1@def01
-1@def02
-1@def03
-1@face
-1@sara
-dali
-dali02
-1@tnm1
-1@tnm2
-1@tnm3
-1@ge_st
-1@gef
-1@gef_in
-1@spa
-moro_vol
-moro_cav
-1@dth1
-1@dth2
-1@dth3
-1@rev
-1@xm_d
-1@eom
-1@jtb
-c_tower2_
-c_tower3_
-1@gl_kh
-2@gl_kh
-e_hugel
-1@mcd
-ver_eju
-ver_tunn
-verus03
-verus04
-job_gun
-1@air1
-1@air2
-1@glast
-lhz_d_n2
-lhz_dun_n
-1@lab
-1@uns
-un_bk_q
-un_bunker
-un_myst
-verus01
-verus02
-paramk
-1@infi
-1@ffp
-1@mir
-2@mir
-1@sthb
-1@sthc
-1@sthd
-prt_cas
-prt_cas_q
-prt_lib
-prt_lib_q
-prt_pri00
-prt_prison
-prt_q
-conch_in
-lasa_dun01
-lasa_dun02
-lasa_dun03
-lasa_dun_q
-lasa_fild01
-lasa_fild02
-lasa_in01
-lasagna
-1@pop1
-1@pop2
-1@pop3
-1@slw
-1@swat
-que_swat
-rebel_in
-slabw01
-1@md_gef
-1@md_pay
-har_in01
-harboro1
-harboro2
-rockmi1
-rockmi2
-rockrdg1
-rockrdg2
-1@gl_k2
-2@gl_k2
-1@xm_d2
-pay_d03_i
-gef_d01_i
-ice_d03_i
-1@tre
-1@begi
-tur_d03_i
-tur_d04_i
-1@crd
-1@drdo
-lasa_sea
-x_lhz
-x_prt
-x_ra
-prt_evt_in
-vis_h01
-vis_h02
-vis_h03
-vis_h04
-ein_d02_i
-com_d02_i
-1@soul
-star_frst
-star_in
-1@cor
-1@os_a
-1@os_b
-1@rgsr
-rgsr_in
-pub_cat
-sp_cor
-sp_os
-sp_rudus
-sp_rudus2
-sp_rudus3
-mag_dun03
-gl_cas01_
-1@gl_prq
-
-// Only add maps under this line if they are not standard maps!
+//
+// Somente adicione mapas abaixo desta linha se eles não forem mapas PADRÃO!
+//
 //======================================================================================
-// - Other/Extra maps -
+// Outros / Mapas Extras
 //======================================================================================
 //rwc01	1000
 //rwc02
@@ -1101,11 +902,10 @@ gl_cas01_
 //tank_test
 //tank_test2
 //test
-
 //======================================================================================
-//Place your custom maps with a starting ID here.
+// Coloque seus custom MAPAS aqui começando com um ID para eles.
 //======================================================================================
-//Example:
+//Exemplo:
 //
 //mymap	1250
 //mymap-2
